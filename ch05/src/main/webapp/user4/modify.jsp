@@ -49,7 +49,7 @@
 		<title>user4::modify</title>
 	</head>
 	<body>
-
+6
 		<h3>User4 수정</h3>
 
 		<a href="../jdbc.jsp">처음으로</a>

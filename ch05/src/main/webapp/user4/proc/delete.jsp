@@ -18,7 +18,7 @@
 		
 		Statement stmt = conn.createStatement();
 		
-		String sql = "DELETE FROM USER4 gender='" + gender + "', age='" + age + "', address=" + address;
+		String sql = "DELETE FROM USER4 gender='" + gender + "', age='" + age + "', address='" + address+"'";
 			sql += "WHERE name='"+name+"'"; 
 		
 		stmt.executeUpdate(sql);
